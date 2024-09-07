@@ -18,7 +18,7 @@ SHELL ["/bin/bash", "-c"]
 # https://github.blog/2022-04-12-git-security-vulnerability-announced/
 RUN rm -rf /usr/local/code/faasm \
     && git clone \
-        https://github.com/friedj/faasm \
+        https://github.com/joshuafried/faasm \
         /usr/local/code/faasm \
     && cd /usr/local/code/faasm \
     && git submodule update --init \

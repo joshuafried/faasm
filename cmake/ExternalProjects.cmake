@@ -115,7 +115,7 @@ FetchContent_Declare(wavm_ext
 )
 
 FetchContent_Declare(wamr_ext
-    GIT_REPOSITORY "https://github.com/friedj/wasm-micro-runtime"
+    GIT_REPOSITORY "https://github.com/joshuafried/wasm-micro-runtime"
     GIT_TAG "5e9dc3c7eb33167389d99b7e5851dc55b5911d33"
 )
 
