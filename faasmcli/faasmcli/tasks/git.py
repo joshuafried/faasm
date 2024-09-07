@@ -7,7 +7,7 @@ from invoke import task
 from os.path import join
 from subprocess import run, PIPE, STDOUT
 
-REPO_NAME = "faasm/faasm"
+REPO_NAME = "friedj/faasm"
 
 VERSIONED_FILES = {
     "faasm": [".env", "VERSION"],
